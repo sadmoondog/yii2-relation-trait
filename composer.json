@@ -1,13 +1,13 @@
 {
-    "name": "mootensai/yii2-relation-trait",
+    "name": "sadmoondog/yii2-relation-trait",
     "type": "yii2-extension",
     "description": "Yii 2 Models load with relation, & transaction save with relation",
     "keywords": ["Yii2","relation","load","save","transaction","loadwithrelation", "savewithrelation", "related", "saveall", "loadall"],
-    "homepage": "http://github.com/mootensai/yii2-relation-trait",
+    "homepage": "http://github.com/sadmoondog/yii2-relation-trait",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/mootensai/yii2-relation-trait/issues",
-        "source": "https://github.com/mootensai/yii2-relation-trait"
+        "issues": "https://github.com/sadmoondog/yii2-relation-trait/issues",
+        "source": "https://github.com/sadmoondog/yii2-relation-trait"
     },
     "authors": [
         {
@@ -21,7 +21,7 @@
     },
     "autoload": {
 	"psr-4": {
-	    "mootensai\\relation\\": ""
+	    "sadmoondog\\relation\\": ""
 	}
     }
 }

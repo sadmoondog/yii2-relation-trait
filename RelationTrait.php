@@ -275,7 +275,7 @@ trait RelationTrait
                 $relAvail = array_keys($this->relatedRecords);
                 $relData = $this->getRelationData();
                 $allRel = array_keys($relData);
-                $noChildren = array_diff($allRel, $relAvail);
+                $noChildren = [];//array_diff($allRel, $relAvail);
 
                 foreach ($noChildren as $relName) {
                     /* @var $relModel ActiveRecord */
